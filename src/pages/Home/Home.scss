@@ -1,0 +1,30 @@
+h1{
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  margin-top: 5px;
+  h1,p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+div{
+  .headerImg{
+    height: 72vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/pexels-roberto-nickson-2559941.jpg");
+  }
+  .headerText{
+    color: white;
+
+
+
+
+  }
+}

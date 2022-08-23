@@ -1,25 +1,4 @@
 .headerNav{
-  display: flex;
-  justify-content: space-around;
+  background-color: gainsboro;
 
-}
-h1{
-  align-items: center;
-  justify-content: center;
-}
-
-div{
-  h1,p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-div{
-  text-align: center;
-  img{
-    width: 100%;
-    object-fit: cover;
-  }
 }
