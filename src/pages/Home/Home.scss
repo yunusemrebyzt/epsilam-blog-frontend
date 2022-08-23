@@ -5,26 +5,31 @@ h1{
 
 .title{
   margin-top: 5px;
-  h1,p{
+  h1{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  p{
+    @extend h1;
+    color: lightgray;
   }
 }
 
 div{
   .headerImg{
-    height: 72vh;
+    height: 74vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: url("images/pexels-roberto-nickson-2559941.jpg");
   }
   .headerText{
-    color: white;
-
-
-
-
+    h3{
+      color: white;
+    }
+    p{
+      color: lightgray;
+    }
   }
 }

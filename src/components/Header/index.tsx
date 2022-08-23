@@ -13,7 +13,7 @@ const Header = ({}:IHeader) => {
                                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
-                            <div className="collapse navbar-collapse container" id="navbarNav">
+                            <div className="collapse navbar-collapse container d-lg-block d-none" id="navbarNav">
                                 <ul className="navbar-nav ml-auto  ">
                                     <li className="nav-item active">
                                         <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
@@ -37,6 +37,7 @@ const Header = ({}:IHeader) => {
                 </div>
 
         )
+
 }
 
 export default Header;
