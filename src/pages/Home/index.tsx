@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.scss'
 import Table from "../../components/Table";
 import Layout from "../../components/Layout";
+import SmallCard from "../../components/SmallCard";
+import {Spinner} from "react-bootstrap";
 
 
 const Home: React.FC = () => {
@@ -44,8 +46,62 @@ const Home: React.FC = () => {
                     text="Book and Plan your holidays right"
                 />
             </div>
+            <div className={'container'}>
+                <div className={'row'}>
+                    <div className={'col-md-6 mb-5'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                    <div className={'col-md-6 mb-5'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                    <div className={'col-md-6 mb-5'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                    <div className={'col-md-6 mb-5'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                    <div className={'col-md-6 mb-5'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                    <div className={'col-md-6 mb-5'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                </div>
+            </div>
         </section>
     </Layout>);
-};
+
+
+}
 
 export default Home;
