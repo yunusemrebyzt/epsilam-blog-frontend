@@ -1,0 +1,22 @@
+
+
+
+
+.sliderArea{
+  background-color: #1d2124;
+  height: 70vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  img{
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 40px;
+  }
+  .textArea{
+    text-align: start;
+    h3{
+      width: 50vh;
+    }
+  }
+}

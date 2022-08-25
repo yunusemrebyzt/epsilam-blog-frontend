@@ -5,6 +5,8 @@ import Table from "../../components/Table";
 import Layout from "../../components/Layout";
 import SmallCard from "../../components/SmallCard";
 import {Spinner} from "react-bootstrap";
+import Carousel from "../../components/Carousel";
+import CarouselFade from "../../components/Carousel";
 
 
 const Home: React.FC = () => {
@@ -29,23 +31,52 @@ const Home: React.FC = () => {
                 <h3>Latest New</h3>
             </div>
             <div className="container d-flex justify-content-between mt-4">
+            <div className="row ">
+                <div className="col-4">
                 <Table
                     title="JUNE 24,2022"
                     text="Book and Plan your holidays right"
+                    photo="abhishek-tanwar-unsplash.jpg"
                 />
+                </div>
+                <div className="col-4">
                 <Table
                     title="JUNE 24,2022"
                     text="Book and Plan your holidays right"
+                    photo="christina-terzidou-unsplash.jpg"
                 />
+                </div>
+                <div className="col-4">
                 <Table
                     title="JUNE 24,2022"
                     text="Book and Plan your holidays right"
+                    photo="johannes-heel-unsplash.jpg"
                 />
+                </div>
+                <div className="col-4">
                 <Table
                     title="JUNE 24,2022"
                     text="Book and Plan your holidays right"
+                    photo="kir-simakov-U-unsplash.jpg"
                 />
+                </div>
+                <div className="col-4">
+                    <Table
+                        title="JUNE 24,2022"
+                        text="Book and Plan your holidays right"
+                        photo="refargotohp-unsplash.jpg"
+                    />
+                </div>
+                <div className="col-4">
+                    <Table
+                        title="JUNE 24,2022"
+                        text="Book and Plan your holidays right"
+                        photo="tanya-grypachevskaya-unsplash.jpg"
+                    />
+                </div>
             </div>
+            </div>
+            <CarouselFade/>
             <div className={'container'}>
                 <div>
                     <h2>More From News</h2>
