@@ -2,7 +2,6 @@ import React from 'react';
 import {ITable} from "./types";
 import './SmallCard.scss'
 import {useNavigate} from "react-router-dom";
-import {findAllByDisplayValue} from "@testing-library/react";
 
 const SmallCard = ({title, subTitle, photo, url}: ITable) => {
     const navigate = useNavigate();

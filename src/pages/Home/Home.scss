@@ -1,35 +1,69 @@
-h1{
+h1 {
   align-items: center;
   justify-content: center;
 }
 
-.title{
+.title {
   margin-top: 5px;
-  h1{
+
+  h1 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  p{
+
+  p {
     @extend h1;
     color: lightgray;
   }
 }
 
-div{
-  .headerImg{
+div {
+  .headerImg {
     height: 74vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: url("images/pexels-roberto-nickson-2559941.jpg");
   }
-  .headerText{
-    h3{
+
+  .headerText {
+    h3 {
       color: white;
     }
-    p{
+
+    p {
       color: lightgray;
     }
   }
 }
+
+.container {
+  h2 {
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  .row-border{
+    border: 1px rgba(0, 0, 0, 0.07) solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-bottom: 25px;
+  }
+  .btn {
+    background-color: white;
+    border-color: black;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin: 0 43% 10px;
+  }
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.44);
+    transition: 0.7s;
+    color: white;
+    margin-top: 8px;
+  }
+
+}
+
+

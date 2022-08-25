@@ -47,8 +47,11 @@ const Home: React.FC = () => {
                 />
             </div>
             <div className={'container'}>
-                <div className={'row'}>
-                    <div className={'col-md-6 mb-5'}>
+                <div>
+                    <h2>More From News</h2>
+                </div>
+                <div className={'row row-border'}>
+                    <div className={'col-md-6 mb-4 '}>
                         <SmallCard
                             title='We introduces new professional training to support growing IT'
                             subTitle='June 24,2022'
@@ -56,39 +59,7 @@ const Home: React.FC = () => {
                             url={''}
                         />
                     </div>
-                    <div className={'col-md-6 mb-5'}>
-                        <SmallCard
-                            title='We introduces new professional training to support growing IT'
-                            subTitle='June 24,2022'
-                            photo={"/resimler/resim.jfif"}
-                            url={''}
-                        />
-                    </div>
-                    <div className={'col-md-6 mb-5'}>
-                        <SmallCard
-                            title='We introduces new professional training to support growing IT'
-                            subTitle='June 24,2022'
-                            photo={"/resimler/resim.jfif"}
-                            url={''}
-                        />
-                    </div>
-                    <div className={'col-md-6 mb-5'}>
-                        <SmallCard
-                            title='We introduces new professional training to support growing IT'
-                            subTitle='June 24,2022'
-                            photo={"/resimler/resim.jfif"}
-                            url={''}
-                        />
-                    </div>
-                    <div className={'col-md-6 mb-5'}>
-                        <SmallCard
-                            title='We introduces new professional training to support growing IT'
-                            subTitle='June 24,2022'
-                            photo={"/resimler/resim.jfif"}
-                            url={''}
-                        />
-                    </div>
-                    <div className={'col-md-6 mb-5'}>
+                    <div className={'col-md-6 mb-4'}>
                         <SmallCard
                             title='We introduces new professional training to support growing IT'
                             subTitle='June 24,2022'
@@ -97,6 +68,45 @@ const Home: React.FC = () => {
                         />
                     </div>
                 </div>
+                <div className={'row row-border'}>
+                    <div className={'col-md-6 mb-4'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                    <div className={'col-md-6 mb-4'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                </div>
+                <div className={'row'}>
+                    <div className={'col-md-6 mb-4'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                    <div className={'col-md-6 mb-4'}>
+                        <SmallCard
+                            title='We introduces new professional training to support growing IT'
+                            subTitle='June 24,2022'
+                            photo={"/resimler/resim.jfif"}
+                            url={''}
+                        />
+                    </div>
+                </div>
+                <button className={'btn'}>
+                    Load More
+                </button>
             </div>
         </section>
     </Layout>);
