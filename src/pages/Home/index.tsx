@@ -31,43 +31,43 @@ const Home: React.FC = () => {
                 <h3>Latest New</h3>
             </div>
             <div className="container d-flex justify-content-between mt-4">
-            <div className="row ">
-                <div className="col-4">
+            <div className="row mobile-row">
+                <div className="col-md-4 mobile-slider">
                 <Table
                     title="JUNE 24,2022"
                     text="Book and Plan your holidays right"
                     photo="abhishek-tanwar-unsplash.jpg"
                 />
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 mobile-slider">
                 <Table
                     title="JUNE 24,2022"
                     text="Book and Plan your holidays right"
                     photo="christina-terzidou-unsplash.jpg"
                 />
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 mobile-slider">
                 <Table
                     title="JUNE 24,2022"
                     text="Book and Plan your holidays right"
                     photo="johannes-heel-unsplash.jpg"
                 />
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 mobile-slider">
                 <Table
                     title="JUNE 24,2022"
                     text="Book and Plan your holidays right"
                     photo="kir-simakov-U-unsplash.jpg"
                 />
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 mobile-slider">
                     <Table
                         title="JUNE 24,2022"
                         text="Book and Plan your holidays right"
                         photo="refargotohp-unsplash.jpg"
                     />
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 mobile-slider">
                     <Table
                         title="JUNE 24,2022"
                         text="Book and Plan your holidays right"
@@ -135,9 +135,12 @@ const Home: React.FC = () => {
                         />
                     </div>
                 </div>
-                <button className={'btn'}>
-                    Load More
-                </button>
+                <div className={"container text-center mb-2"}>
+                    <button className={'btn'}>
+                        Load More
+                    </button>
+                </div>
+
             </div>
         </section>
     </Layout>);

@@ -1,7 +1,4 @@
-h1 {
-  align-items: center;
-  justify-content: center;
-}
+
 
 .title {
   margin-top: 5px;
@@ -10,17 +7,20 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2.3rem;
   }
 
   p {
-    @extend h1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: lightgray;
   }
 }
 
 div {
   .headerImg {
-    height: 74vh;
+    height: 69vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,7 +55,7 @@ div {
     border-color: black;
     border-radius: 20px;
     padding: 5px 30px;
-    margin: 0 43% 10px;
+
   }
   .btn:hover {
     background-color: rgba(0, 0, 0, 0.44);

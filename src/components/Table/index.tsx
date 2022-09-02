@@ -6,8 +6,21 @@ import './Table.scss'
 const Table = ({title,text,photo}:ITable) => {
     return (
         <div  >
-            <div className="container ">
-                <div className="card border-dark mb-3  ">
+                    <img className="card-img" src={`images/${photo}`} alt="Card image"/>
+                        <div className="card-img-overlay">
+                            <div className={"opacity"} >
+                                <p className="card-text">{title}</p>
+                                <h5 className="card-title cd">{text}</h5>
+
+                            </div>
+
+                        </div>
+
+        </div>
+    );
+
+}
+{/*<div className="car">
                     <div className="card-header">
                         <div className="card-body text-dark">
                             <p className="card-text">{title}</p>
@@ -17,12 +30,5 @@ const Table = ({title,text,photo}:ITable) => {
                     <div className="card-text">
                         <img className="card-img " src={`images/${photo}`} alt=""/>
                     </div>
-                </div>
-            </div>
-
-        </div>
-    );
-
-}
-
+                </div>*/}
 export default Table;

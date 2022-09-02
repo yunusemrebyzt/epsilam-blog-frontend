@@ -6,10 +6,11 @@ import {useNavigate} from "react-router-dom";
 const Footer = ({}:IFooter) => {
     const navigate = useNavigate()
     return (
-               <div className={'footer-main'}><a className="logo" href="#">LOGO</a>
+        <div></div>
+               /*<div className={'footer-main'}><a className="logo" href="#">LOGO</a>
                    <div className={'left-area-footer'}></div>
                    <div className={'right-area-footer'}></div>
-               </div>
+               </div>*/
         )
 }
 
